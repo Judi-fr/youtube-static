@@ -1,5 +1,37 @@
+.cuerpito{
+  margin: 0;
+}
+/*ICONOs*/
+.icono-hamburguesa{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+
+/*CONTENEDORES BARRA SUPERIOR*/
 .contenedor-flex{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
 }
+.contenedor-izquierda{
+  width: 145px;
+  background-color: lightblue;
+}
+.contenedor-medio{
+  margin-left: 150px;
+  margin-right: 150px;
+  max-width: 400px;
+  display: flex;
+  flex: 1;
+  background-color: lightpink;
+}
+.contenedor-derecha{
+  background-color: lightblue;
+  width: 210px;
+}
+
