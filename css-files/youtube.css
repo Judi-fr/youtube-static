@@ -14,11 +14,10 @@
 /*SEARCHBAR*/
 .search-bar {
   margin-bottom: 1px;
-  height: 30px;
+  height: 36px;
   width: 500px;
   flex: 1;
-  border-radius: 100px;
-  border: none;
+  border: 1px solid rgb(204, 204, 204);
 }
 
 /*IMAGENES*/
