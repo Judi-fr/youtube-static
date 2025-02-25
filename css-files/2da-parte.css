@@ -8,6 +8,7 @@
   background-color: #EFEFEF;
   cursor: pointer;
   width: 64px;
+  margin-left: -1px;
   border: 1px solid rgb(204, 204, 204);
 }
 .boton-microfono-header{
@@ -47,15 +48,20 @@
 
 .icono-camara-con-mas{
   width: 23px;
+  cursor: pointer;
 }
 .icono-9-cuadraditos{
   width: 23px;
+  cursor: pointer;
 }
 .icono-campana{
   width: 23px;
+  cursor: pointer;
 }
 .icono-foto-de-canal{
   width: 32px;
+  border-radius: 16px;
+  cursor: pointer;
 }
 
 /*CONTENEDORES BARRA SUPERIOR*/
@@ -86,5 +92,6 @@
   display: flex;
   justify-content: space-around;
   width: 210px;
+  flex-shrink: 0;
 }
 
