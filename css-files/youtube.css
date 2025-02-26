@@ -3,18 +3,35 @@
 }
 
 /*CONTENEDOR*/
+.grid-videos{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width:100%;
+}
 .contenedor-video {
   color: rgb(0, 0, 0);
-  width: 300px;
-  margin-right: 25px;
+  margin-right: 19px;
+  max-width: 100%;
+}
+
+.div-img-perfil{
+  width: 50px;
+  height: 100px;
   display: inline-block;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  align-content: top;
+
+}
+.div-contenido-video{
+  display: inline-block;
+  width: 250px;
 }
 
 /*SEARCHBAR*/
 .search-bar {
   display: flex;
-  
   margin-bottom: 1px;
   height: 36px;
   width: 0;
@@ -33,40 +50,50 @@
   margin-bottom: 0px;
 }
 
-.imagen-user {
-  border-radius: 100px;
-  width: 30px;
+.img-foto-perfil {
+  border-radius: 16px;
+  width: 32px;
   display: inline-block;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  margin-top: 16px;
+  margin-left: 2px;
 }
 
 /*TEXTOS*/
 .video-title {
   cursor: pointer;
-  line-height: 1.1;
-  font-size: 15px;
+  line-height: 1.3;
+  font-size: 13px;
   font-weight: 600;
   font-family: montserrat;
   margin-bottom: 5px;
+  width: 260px;
+  display: inline-block;
 }
 .video-title:hover {
   text-decoration: underline;
 }
 .username {
-  font-size: 15px;
+  font-size: 13px;
+  font-family: montserrat;
   margin-bottom: 4px;
   display: inline-block;
-  vertical-align: middle;
-  color: rgb(73, 61, 61);
+  color: rgb(56, 50, 50);
   margin-top: 5px;
-}s
+  display: block;
+}
 .username:hover {
   text-decoration: underline;
   cursor: pointer;
+  display: inline-block;
 }
+
 .video-info {
-  color: rgb(73, 61, 61);
-  font-size: 13px;
+  color: rgb(56, 50, 50);
+  font-size: 11px;
   margin-top: 0px;
   margin-bottom: 5px;
+  display: inline-block;
+  font-family: montserrat;
 }
