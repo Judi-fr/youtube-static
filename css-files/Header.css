@@ -1,5 +1,6 @@
 .cuerpito{
   margin: 0;
+  padding-top: 60px;
 }
 
 /*BOTONES*/
@@ -66,12 +67,18 @@
 
 /*CONTENEDORES BARRA SUPERIOR*/
 .contenedor-flex{
-  border: 0.5px solid rgb(213, 209, 209);
+  position: fixed;
+  background-color: #EFEFEF;
+  border-bottom: 0.5px solid rgb(213, 209, 209);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 55px;
+  left: 0;
+  right: 0;
+  top:0;
+  
 }
 .contenedor-izquierda{
   display:flex;
