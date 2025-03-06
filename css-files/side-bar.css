@@ -2,7 +2,7 @@
   position: fixed;
   background-color: #EFEFEF;
   left: 0;
-  top:55px;
+  top:56px;
   bottom: 0;
   width: 75px;
   z-index: 2;
@@ -10,6 +10,29 @@
   justify-content:top;
   flex-direction: column;
   align-items: center;
-
   color: black;
+}
+.contenedor-side-bar img{
+  height: 24px;
+}
+.contenedor-side-bar p{
+  font-size: 11px;
+  font-family: roboto, arial;
+}
+
+.divs-sidebar{
+  height: 74px;
+  width: 72px;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.divs-sidebar:hover{
+  background-color: #d6c8c8;
 }
