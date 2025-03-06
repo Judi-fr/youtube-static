@@ -1,8 +1,8 @@
 .contenedor-side-bar{
   position: fixed;
-  background-color: #EFEFEF;
+  background-color: #FFFFFF;
   left: 0;
-  top:56px;
+  top:55px;
   bottom: 0;
   width: 75px;
   z-index: 2;
@@ -23,7 +23,7 @@
 .divs-sidebar{
   height: 74px;
   width: 72px;
-  background-color: #EFEFEF;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;

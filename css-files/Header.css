@@ -26,14 +26,14 @@
 
 /*ICONOs*/
 .icono-hamburguesa{
-  width: 20px;
-  height: 20px;
-  padding-left: 15px;
+  width: 23px;
+  height: 23px;
+  margin-left: 24px;
+  margin-right: 24px;
   cursor: pointer;
 }
 .icono-youtube{
   width: 90px;
-  padding-left: 15px;
   cursor: pointer;
 }
 
@@ -69,7 +69,7 @@
 /*CONTENEDORES BARRA SUPERIOR*/
 .contenedor-flex{
   position: fixed;
-  background-color: #EFEFEF;
+  background-color:#FFFFFF;
   border-bottom: 0.5px solid rgb(213, 209, 209);
   display: flex;
   flex-direction: row;
