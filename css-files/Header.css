@@ -60,6 +60,21 @@
   width: 23px;
   cursor: pointer;
 }
+.icono-notificacion{
+  background-color: #CC0000;
+  border-radius: 16px;
+  color: white;
+  font-size: 10px;
+  padding-bottom: 1.5px;
+  padding-top: 1.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: roboto;
+  right: -2px;
+  top: 1px;
+  position: absolute;
+  z-index: 4;
+}
 .icono-foto-de-canal{
   width: 32px;
   border-radius: 16px;
@@ -79,7 +94,7 @@
   left: 0;
   right: 0;
   top:0;
-  
+  z-index: 2;
 }
 .contenedor-izquierda{
   display:flex;
@@ -103,3 +118,10 @@
   flex-shrink: 0;
 }
 
+.contenedor-campana{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
